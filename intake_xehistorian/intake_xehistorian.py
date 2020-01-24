@@ -12,8 +12,8 @@ import getpass
 import sys
 import requests
 import time
-from .. import __version__
-from intake_xecatalog.drivers.historian_api import HistorianQuery, HistorianAuth
+from . import __version__
+from .historian_api import HistorianQuery, HistorianAuth
 
 
 class XeHistorianSource(base.DataSource):
